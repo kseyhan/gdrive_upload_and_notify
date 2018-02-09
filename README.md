@@ -45,7 +45,7 @@ usage: gdrive_upload_and_notify -f <FILE> [-h] [-c <FILE>] [-d <PATH>] [-s <FILE
                          example: -s /home/pi/client_secret.json
 ```
 
-## Configurable Options:
+## Config File Configurable Options:
 ```
 mail.To=<EMAIL> The Address you want to send your notifications to
 
