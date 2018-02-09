@@ -2,6 +2,8 @@
 
 Google Drive File Upload and Notify Commandline Java Application with the main purpose that its beeing used with linux motion daemon.
 
+This Program is heavily inspired by the python code from https://github.com/jerbly/motion-uploader.
+
 ## Installation
 Google setup:
 
