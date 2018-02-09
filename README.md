@@ -9,14 +9,15 @@ Google setup:
 
 Go to https://code.google.com/apis/console 
 create a new application and enable the "Google Drive API" and "Gmail API" if you want to receive notification emails for your registered app.
-download the client_secrets.json file from the Credentials Page of the app and place it besides the executable jar.
+download the client_secrets.json file from the Credentials Page of the app and place it besides the executable jar with the given name or specify the commandline options with the full path of the secrets file when executed.
 
 Login into your Google Drive Account.
 Create a Folder where you want your files to be uploaded to.
 Set the name of this folder in the "application.properties" File.
 
 ## Configuration:
-Place the application.properties file from the repository besides the executable jar.
+Place the application.properties file from the repository besides the executable jar with the given name or specify the commandline options with the full path of the config file when executed.
+
 Adjust the settings in the file to your needs.
 Create a Folder owned by the executing user of the jar where the authorisation tokens can be saved at.
 
