@@ -30,9 +30,8 @@ after that the client will be able to refresh its token automagicaly by itself.
 
 
 ## Usage of the Commandline Application:
-`
-usage: gdrive_upload_and_notify -f <FILE> [-h] [-c <FILE>] [-d <PATH>] [-s
-       <FILE>]
+```
+usage: gdrive_upload_and_notify -f <FILE> [-h] [-c <FILE>] [-d <PATH>] [-s <FILE>]
  -f,--file <FILE>        File to upload.
                          example: -f /home/pi/uploadme.avi
  -h,--help               show this HELP.
@@ -42,10 +41,10 @@ usage: gdrive_upload_and_notify -f <FILE> [-h] [-c <FILE>] [-d <PATH>] [-s
                          example: -d /home/pi/.credentials/motion-uploader
  -s,--secret <FILE>      google secrets File.
                          example: -s /home/pi/client_secret.json
-`
+```
 
 ## Configurable Options:
-`
+```
 mail.To=<EMAIL> The Address you want to send your notifications to
 
 mail.From=<EMAIL> The Adress youre sending from.. Most probably your gmail adress
@@ -61,4 +60,4 @@ gdrive.folder=<STRING> The name of the folder at Google Drive youre going to upl
 delete-after-upload=<BOOLEAN> Should the Source Files be deleted after the upload 
 
 send-email=<BOOLEAN> Do you want to receive email notifications.
-`
+```
