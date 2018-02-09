@@ -1,4 +1,4 @@
-# Google Drive Upload and Notify
+# Motion Google Drive Upload and Notify
 
 Google Drive File Upload and Notify Commandline Java Application with the main purpose that its beeing used with linux motion daemon.
 
